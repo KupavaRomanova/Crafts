@@ -1,0 +1,96 @@
+
+*{
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+.zad_fon {
+    background-color: #D7D7D9;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.menu {
+    width: 100%;
+
+    display: flex;
+    
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    margin: auto;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.logo_img  img {
+    margin: 0px auto;
+    width: 100px; 
+    height: 100px;
+}
+.logo_name {
+    font-size: 1.4em;
+    font-weight: 400;
+    color: #000000;
+}
+
+.nav {
+
+    margin-left: auto;
+
+    font-size: 1em;
+    font-weight: 400;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+    gap: 27px;
+}
+
+.nav_link {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.voiti {
+    margin-left: auto;
+
+    font-size: 1em;
+    font-weight: 400;
+
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    color: #000000;
+    text-decoration: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat';
+}
+
+.kor {
+    background-color: none;
+    margin: 0px auto;
+    color: #000000
+}

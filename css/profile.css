@@ -1,0 +1,74 @@
+.zad_profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    background-color: white;
+    border-radius: 8px;
+
+    padding: 16px 24px;
+
+    box-shadow: 5px 5px 40px 0px rgba(34, 60, 80, 0.2);
+}
+
+.profile_info {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    margin-left: 16px;
+
+    
+}
+
+.profile_info > h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile_info > a {
+    color: rgb(19, 109, 226);
+}
+
+.photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.text_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.md {
+    padding: 10px;
+}
+
+.card {
+	color:#fff;
+    width: 350px;
+    background-color: white;
+    border-radius: 8px;
+
+    padding: 16px 24px;
+
+    box-shadow: 5px 5px 40px 0px rgba(34, 60, 80, 0.2);
+}
+
+
+

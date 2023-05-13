@@ -1,0 +1,44 @@
+* {
+    font-family: 'Montserrat';
+  }
+ 
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0px auto;
+    height: 100%;
+  }
+ 
+  .all {
+    width: 100%;
+    padding-top: 200px;
+    /* z-index: -1; */
+  }
+ 
+  .kva {
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+ 
+  .kart {
+ 
+    width: 200px;
+    height: 200px;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border: 1px solid black;
+    justify-content: center;
+  }
+ 
+  .kart_text {
+    font-size: 1em;
+    font-weight: 400;
+    padding-top: 5px;
+  }
