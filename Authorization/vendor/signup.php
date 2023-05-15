@@ -17,7 +17,7 @@
             $_SESSION['message'] = 'Ошибка при загрузке сообщения';
             header('Location: ../vhod.php');
         }
-
+ 
         mysqli_query($connect, "INSERT INTO `users` (`name`, `email`, `password`, `photo`) VALUES ('$name', '$email', '$password', '$path')");
 
 

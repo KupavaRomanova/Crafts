@@ -1,5 +1,6 @@
 <?php
 
+
     $connect = mysqli_connect('localhost', 'root', '', 'web');
 
     if (!$connect) {

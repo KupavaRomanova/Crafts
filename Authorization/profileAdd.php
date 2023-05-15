@@ -15,6 +15,7 @@ if (!$_SESSION['user']) {
     <link rel="stylesheet" href="../css/profile.css">
     <link rel="stylesheet" href="../css/fon.css">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/add.css">
 </head>
 <body>
 
@@ -67,13 +68,26 @@ if (!$_SESSION['user']) {
                         <a href="./profileAdd.php" class="logout">Добавленные товары</a>
                         </div>  
                     </div>
-                    <a href="vendor/logout.php" class="logout">Выход</a>
-                    <a href="../Product/AddProduct.php" class="logout">Добавить товар</a>
+                    <a href="./vendor/logout.php" class="logout">Выход</a>
+                    <a href="./AddProduct.php" class="logout">Добавить товар</a>
                     <!-- <button>Добавить товар</button> -->
                 </div>
             </div>
         </div>
-    </div>
+
+        <!-- <div class="product">
+            <div class="card_product">
+                <div class="content_product">
+                    <p class="heading"><?= $_SESSION['products']['products_name'] ?></p>
+                    <p class="para">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+                        laboriosam at voluptas minus culpa deserunt delectus sapiente
+                        inventore pariatur
+                    </p>
+                    <button class="btn">Read more</button>
+                </div>
+            </div>
+        </div> -->
 
 
 </body>

@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	padding: 0;
+
+	min-height: 100vh;
+    width: 100%; 
+
+} 
+.forma_add{
+	width: 500px;
+	/* height: 600px; */
+	background: red;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #babac1;
+	background: linear-gradient(to bottom, #7e918a, #a7c1bf, #8eb2a4);
+	
+}
+
+.add{
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+}
+
+.add_product{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+label{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 60px;
+	font-weight: bold;
+	cursor: pointer;
+	/* transition: .5s ease-in-out; */
+}
+input{
+	width: 60%;
+	/* height: 30px; */
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+select{
+    width: 60%;
+	/* height: 30px; */
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	/* background: #573b8a; */
+	background: #94A69F;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}

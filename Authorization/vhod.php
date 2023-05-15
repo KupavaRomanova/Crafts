@@ -69,6 +69,7 @@ if ( isset($_SESSION['user'])) {
                         unset($_SESSION['message']);
                     ?>
 
+
                     <div class="signup">
                         <form action="vendor/signup.php" method="post" enctype="multipart/form-data">
                             <label for="chk" aria-hidden="true">Регистрация</label>
