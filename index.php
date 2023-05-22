@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
+<?php
+// include ("./Page/header.php");
+?>
     
     <div class="zad_fon">
             <div class="container">
@@ -25,19 +29,20 @@
                     </div>
                     </div>
                     <div class="nav">
-                        <a class="nav_link">Украшения</a>
-                        <a class="nav_link">Одежда</a>
-                        <a class="nav_link">Игрушки</a>
-                        <a class="nav_link">Картины</a>
+                        <a href="Page/jewelry.php" class="name">Украшения</a>
+                        <a href="Page/clothes.php" class="name">Одежда</a>
+                        <a href="Page/footwear.php" class="name">Обувь</a>
+                        <a href="Page/toys.php" class="name">Игрушки</a>
+                        <a href="Page/decor.php" class="name">Декор</a>
                     </div>
 
 
                     <div class="voiti">
-                        <a href="Authorization/vhod.php" class="name">Личный кабинет</a>
+                        <a href="Page/vhod.php" class="name">Личный кабинет</a>
                     </div>
 
                         <div class="kor">
-                            <a href="#">
+                            <a href="Page/shop.php">
                                 <img src="img/kor.svg" width="20" height="20" alt="kor" > 
                             </a>
                         </div>
@@ -45,7 +50,6 @@
             </div>
         </div>
 
-    <div class="fon" :style="{'background-image':'url(img/fon.jpg)'}"> </div>
 
     <div class="container">
         <div class="all">
@@ -56,21 +60,28 @@
                 <div class="kart_img">
                     <img src="img/jew.svg" width="100" height="100" alt="Jew">
                 </div>
-                <a class="kart_text">Украшения</a>
+                <a href="Page/jewelry.php" class="name">Украшения</a>
                 </div>
 
                 <div class="kart">
                 <div class="kart_img">
                     <img src="img/clot.svg" width="100" height="100" alt="clot">
                 </div>
-                <a class="kart_text">Одежда</a>
+                <a href="Page/clothes.php" class="name">Одежда</a>
+                </div>
+
+                <div class="kart">
+                <div class="kart_img">
+                    <img src="img/foot.svg" width="100" height="100" alt="draw">
+                </div>
+                <a href="Page/footwear.php" class="name">Обувь</a>
                 </div>
 
                 <div class="kart">
                 <div class="kart_img">
                     <img src="img/toy.svg" width="100" height="100" alt="toy">
                 </div>
-                <a class="kart_text">Игрушки</a>
+                <a href="Page/toys.php" class="name">Игрушки</a>
 
                 </div>
 
@@ -78,8 +89,10 @@
                 <div class="kart_img">
                     <img src="img/draw.svg" width="100" height="100" alt="draw">
                 </div>
-                <a class="kart_text">Картины</a>
+                <a href="Page/decor.php" class="name">Декор</a>
                 </div>
+
+
             </div>
         </div>
   </div>

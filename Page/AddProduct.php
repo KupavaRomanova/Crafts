@@ -10,49 +10,20 @@
 </head>
 
 <body>
+    <?php
+        include ("./header.php");
+    ?>
 
-    <div class="zad_fon">
-        <div class="container">
-            <div class="menu">
-                <div class="logo">
-                    <div class="logo_img">
-                        <img src="..//img/logo.svg" alt="Crafts">
-                    </div>
-                    <div class="logo_name">
-                        <a href="../index.php" class="name">Craft</a>
-                    </div>
-                </div>
-                <div class="nav">
-                    <a class="nav_link">Украшения</a>
-                    <a class="nav_link">Одежда</a>
-                    <a class="nav_link">Игрушки</a>
-                    <a class="nav_link">Картины</a>
-                </div>
-
-                <div class="voiti">
-                    <a href="../Authorization/vhod.php" class="name">Личный кабинет</a>
-                </div>
-
-                <div class="kor">
-                    <a href="#">
-                        <img src="../img/kor.svg" width="20" height="20" alt="kor">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
     <div class="container">
         <div class="add">
             <div class="forma_add">
-                <form action="./add.php" method="post" enctype="multipart/form-data">
+                <form action="../Kod/add.php" method="post" enctype="multipart/form-data">
                     <div class="add_product">
                         <input type="text" name="product_name" placeholder="Product name" required="">
                         <select name="categories" placeholder="Сategories">
                             <option>Украшения</option>
                             <option>Одежда</option>
-                            <option>Обувь</option>
+                            <option>Обувь</option>3
                             <option>Игрушки</option>
                             <option>Декор</option>
                         </select>
@@ -63,8 +34,7 @@
                         <input type="file" name="photo">
                         <button>Добавить</button>
                     </div>
-                </form>
-                    
+                </form>     
             </div>
         </div>
     </div>

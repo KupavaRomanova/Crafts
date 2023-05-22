@@ -1,5 +1,6 @@
 <?php
 session_start();
+include ("./header.php");
 
 if ( isset($_SESSION['user'])) {
     header('Location: profile.php');
@@ -23,37 +24,6 @@ if ( isset($_SESSION['user'])) {
 </head>
 
 <body>
-
-    <div class="zad_fon">
-        <div class="container">
-            <div class="menu">
-                <div class="logo">
-                    <div class="logo_img">
-                        <img src="..//img/logo.svg" alt="Crafts">
-                    </div>
-                    <div class="logo_name">
-                        <a href="../index.php" class="name">Craft</a>
-                    </div>
-                </div>
-                <div class="nav">
-                    <a class="nav_link">Украшения</a>
-                    <a class="nav_link">Одежда</a>
-                    <a class="nav_link">Игрушки</a>
-                    <a class="nav_link">Картины</a>
-                </div>
-
-                <div class="voiti">
-                    <a href="./vhod.php" class="name">Личный кабинет</a>
-                </div>
-
-                <div class="kor">
-                    <a href="#">
-                        <img src="../img/kor.svg" width="20" height="20" alt="kor">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
     
     <!-- Форма авторизации -->
     
@@ -71,7 +41,7 @@ if ( isset($_SESSION['user'])) {
 
 
                     <div class="signup">
-                        <form action="vendor/signup.php" method="post" enctype="multipart/form-data">
+                        <form action="../Kod/signup.php" method="post" enctype="multipart/form-data">
                             <label for="chk" aria-hidden="true">Регистрация</label>
                             <input type="text" name="name" placeholder="User name" required="">
                             <input type="email" name="email" placeholder="Email" required="">
@@ -83,7 +53,7 @@ if ( isset($_SESSION['user'])) {
                     </div>
     
                     <div class="login">
-                        <form action="vendor/signin.php" method="post">
+                        <form action="../Kod/signin.php" method="post">
                             <label for="chk" aria-hidden="true">Вход</label>
                             <input type="email" name="login" placeholder="Email" required="">
                             <input type="password" name="password" placeholder="Password" required="">
