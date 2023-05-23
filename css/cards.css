@@ -43,3 +43,21 @@
     font-weight: 400;
     padding-top: 5px;
   }
+
+  @media (max-device-width: 800px) {
+    .container {
+      max-width: 700px;
+      margin: 0px auto;
+      height: 100%;
+    }
+
+    .kva {
+ 
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      flex-wrap: wrap;
+    }
+}

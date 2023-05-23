@@ -14,7 +14,7 @@ if (!$_SESSION['user']) {
 <head>
 
   <meta charset="UTF-8">
-  <title>Авторизация и регистрация</title>
+  <title>Crafts</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/header.css">
   <link rel="stylesheet" href="../css/fon.css">
@@ -49,7 +49,7 @@ if (!$_SESSION['user']) {
         WHERE products.category_id = 3 "
   );
   ?>
-
+<div class="container">
   <div class="des">
     <?php foreach ($productList as $products) : ?>
       <div class="card_product">
@@ -78,6 +78,7 @@ if (!$_SESSION['user']) {
       </div>
     <?php endforeach ?>
   </div>
+</div>
 
 
 

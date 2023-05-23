@@ -13,7 +13,7 @@ if ( isset($_SESSION['user'])) {
 
 <head>
     <meta charset="UTF-8">
-    <title>Vhod2</title>
+    <title>Crafts</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/vhod.css">
@@ -31,13 +31,18 @@ if ( isset($_SESSION['user'])) {
         <div class="forma">
                 <div class="main">
                     <input type="checkbox" id="chk" aria-hidden="true">
-    
+
+                    <div class="mess">
                     <?php
                         if (isset($_SESSION['message'])) {
-                            echo '<p class="msg" style="color: red"> ' . $_SESSION['message'] . ' </p>';
+                            echo '<p class="msg"> ' . $_SESSION['message'] . ' </p>';
                         }
                         unset($_SESSION['message']);
                     ?>
+
+                    </div>
+    
+
 
 
                     <div class="signup">

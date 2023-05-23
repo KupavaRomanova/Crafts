@@ -13,7 +13,7 @@ if (!$_SESSION['user']) {
 <head>
 
   <meta charset="UTF-8">
-  <title>Авторизация и регистрация</title>
+  <title>Crafts</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/header.css">
   <link rel="stylesheet" href="../css/profile.css">
@@ -34,9 +34,6 @@ if (!$_SESSION['user']) {
             <p><?= $_SESSION['user']['email'] ?></p>
           </div>
           <div class="row">
-            <div class="md">
-              <h5>Избранное</h5>
-            </div>
             <div class="md">
               <a href="profileAdd.php" class="logout">Добавленные товары</a>
             </div>

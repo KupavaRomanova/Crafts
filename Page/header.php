@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Авторизация и регистрация</title>
+    <title>Crafts</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/fon.css">
@@ -12,8 +12,8 @@
 
 <body>
 
-    <div class="zad_fon">
-        <div class="container">
+    <div class="container">
+        <div class="zad_fon">
             <div class="menu">
                 <div class="logo">
                     <div class="logo_img">

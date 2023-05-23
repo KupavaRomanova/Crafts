@@ -1,6 +1,6 @@
 <head>
     <meta charset="UTF-8">
-    <title>Vhod2</title>
+    <title>Crafts</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/header.css">
@@ -16,6 +16,7 @@
 
     <div class="container">
         <div class="add">
+
             <div class="forma_add">
                 <form action="../Kod/add.php" method="post" enctype="multipart/form-data">
                     <div class="add_product">

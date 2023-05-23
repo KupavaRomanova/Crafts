@@ -11,7 +11,7 @@ include("./profile.php");
 
 <head>
     <meta charset="UTF-8">
-    <title>Авторизация и регистрация</title>
+    <title>Crafts</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/profile.css">
@@ -47,25 +47,27 @@ include("./profile.php");
     ?>
 
     <!-- <div class="card_product"> -->
-    <div class="des">
-        <?php foreach ($productList as $products) : ?>
-            <div class="card_product">
-                <div class="content_product">
-                    <div class="des_card">
-                        <div class="product_name"><?= $products['product_name'] ?></div>
-                        <div class="img_photo">
-                            <img src="../<?= $products['photo'] ?>" class="img_photo">
+    <div class="container">
+        <div class="des">
+            <?php foreach ($productList as $products) : ?>
+                <div class="card_product">
+                    <div class="content_product">
+                        <div class="des_card">
+                            <div class="product_name"><?= $products['product_name'] ?></div>
+                            <div class="img_photo">
+                                <img src="../<?= $products['photo'] ?>" class="img_photo">
+                            </div>
+                            <div class="product_description"><?= $products['description'] ?></div>
+                            <div class="product_price">Цена: <?= $products['price'] ?> руб </div>
+                            <div class="product_count">Количество: <?= $products['count'] ?></div>
+                            <div class="categories_name ">Категория: <?= $products['category_name'] ?></div>
+                            <!-- <button class="btn">Добавить в корзину</button> -->
                         </div>
-                        <div class="product_description"><?= $products['description'] ?></div>
-                        <div class="product_price">Цена: <?= $products['price'] ?> руб </div>
-                        <div class="product_count">Количество: <?= $products['count'] ?></div>
-                        <div class="categories_name ">Категория: <?= $products['category_name'] ?></div>
-                        <button class="btn">Добавить в корзину</button>
                     </div>
                 </div>
-            </div>
-        <?php endforeach ?>
-    </div>
+            <?php endforeach ?>
+        </div>
+    </div>  
 
 </body>
 

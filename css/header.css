@@ -11,7 +11,7 @@
 }
 .container {
     max-width: 1170px;
-    width: 100%;
+    /* width: 100%; */
     margin: 0px auto;
     /* height: 100%; */
 }
@@ -60,6 +60,8 @@
     flex-wrap: wrap;
 
     gap: 27px;
+
+    
 }
 
 .nav_link {
@@ -95,4 +97,12 @@ a{
     background-color: none;
     margin: 0px auto;
     color: #000000
+}
+
+@media (max-device-width: 800px) {
+    .container {
+      max-width: 700px;
+      margin: 0px auto;
+    }
+
 }

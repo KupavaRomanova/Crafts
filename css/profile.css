@@ -1,8 +1,17 @@
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0px auto;
+    height: 100%;
+}
+
 .zad_profile{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
 
 
 .profile{
@@ -71,5 +80,11 @@
     box-shadow: 5px 5px 40px 0px rgba(34, 60, 80, 0.2);
 }
 
+@media (max-device-width: 800px) {
+    .container {
+      max-width: 700px;
+      margin: 0px auto;
+    }
 
+}
 
